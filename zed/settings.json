@@ -1,7 +1,7 @@
 // Zed settings
 {
   "edit_predictions": {
-    "mode": "subtle"
+    "mode": "subtle",
   },
   "icon_theme": "Bearded Icon Theme",
   "buffer_font_family": "Monaspace Neon NF",
@@ -16,22 +16,22 @@
   "theme": {
     "mode": "system",
     "light": "Github Dark",
-    "dark": "Github Dark"
+    "dark": "Github Dark",
   },
   "tab_bar": {
-    "show": false
+    "show": false,
   },
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "zed",
   },
   // GIT
   "git": {
     "inline_blame": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   // TERMINAL
   "terminal": {
@@ -41,56 +41,56 @@
     "copy_on_select": true,
     "shell": "system",
     "scrollbar": {
-      "show": "never"
+      "show": "never",
     },
     "toolbar": {
-      "breadcrumbs": false
-    }
+      "breadcrumbs": false,
+    },
   },
   // DEBUGGER
   "debugger": {
-    "dock": "left"
+    "dock": "left",
   },
   // AGENT
   "agent": {
     "dock": "left",
-    "model_parameters": []
+    "model_parameters": [],
   },
   // NOTIFICATIONS
   "notification_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   // PROJECT
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   // LANGUAGES
   "languages": {
     "JSONC": {
-      "show_edit_predictions": false
+      "show_edit_predictions": false,
     },
     "Python": {
-      "tab_size": 4
-    }
+      "tab_size": 4,
+    },
   },
   // LSP
   "lsp": {
     "ruff": {
       "initialization_options": {
         "settings": {
-          "exclude": ["*"]
-        }
-      }
+          "exclude": ["*"],
+        },
+      },
     },
     "basedpyright": {
       "settings": {
         "basedpyright.analysis": {
           "diagnosticMode": "workspace",
           "inlayHints": {
-            "callArgumentNames": false
-          }
-        }
-      }
-    }
-  }
+            "callArgumentNames": false,
+          },
+        },
+      },
+    },
+  },
 }
